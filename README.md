@@ -1,17 +1,13 @@
 
-### function expressin
+### function expressin  (functions as values)
 ```
-const power = (base,exponent) => {
-  
-  let result = 1;
-  
-  for(let count = 0; count<exponent; count++){
-    result = result * base;
-  }
-  
-  return result;
+let launchMissiles = function() {
+  missileSystem.launch("now");
+};
+
+if (safeMode) {
+  launchMissiles = function() {/* do nothing */};
 }
-console.log(power(5,2));
 ```
 
 ### function declaration
