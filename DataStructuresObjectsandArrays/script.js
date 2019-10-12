@@ -61,6 +61,13 @@ var journal = [
 
 //ве ссылки на один объект или же у нас есть два разных объекта, содержащих одинаковые свойства.
 
+var object1 = {value:10};
+var object2 = object1;
+var object3 = {value:10};
+
+ console.log(object1 == object2);
+ 
+// unshift shift push pop
 
 
 
